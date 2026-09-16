@@ -1,7 +1,7 @@
 class Hush < Formula
   desc "macOS-local secrets daemon — ssh-agent, but for environment variables"
   homepage "https://hush.typeguru.nl"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   # Apple Silicon only for now; Intel binaries land in the next release.
@@ -9,7 +9,7 @@ class Hush < Formula
 
   on_macos do
     url "https://github.com/jaenster/hush/releases/download/v#{version}/hush-v#{version}-aarch64-macos.tar.gz"
-    sha256 "c67ff59b59f0ef2e1e09efd1b671365df41a473779acd762d3523938d7a28190"
+    sha256 "8f51330dd0d2127cebb73313c7611b62390f842ec18bc9ef35461e8989757435"
   end
 
   def install
